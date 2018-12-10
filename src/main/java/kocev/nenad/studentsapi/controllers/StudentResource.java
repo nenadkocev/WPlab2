@@ -51,12 +51,12 @@ public class StudentResource {
     }
 
     @PatchMapping
-    public void updateStudent(HttpServletRequest request){
+    public void updateStudent(@RequestBody Map<String, String> payload){
         service.updateStudent(
-                request.getParameter("index"),
-                request.getParameter("fname"),
-                request.getParameter("lname"),
-                request.getParameter("studyProgram"));
+                payload.get("index"),
+                payload.get("fname"),
+                payload.get("lname"),
+                payload.get("studyProgram"));
     }
 
     @DeleteMapping("/delete/{index}")

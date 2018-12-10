@@ -16,8 +16,6 @@ public interface StudentService {
 
     void updateStudent(String index, String fName, String lName, String studyProgramName) throws StudentNotFoundException, BadParametersException;
 
-//    index, name, lastName, studyProgramName  (Сите параметри се од тип String)
-
     void addNewStudent(String index, String name, String lastName, String studyProgramName) throws BadParametersException;
 
     void deleteStudent(String index) throws StudentNotFoundException;
