@@ -1,5 +1,6 @@
 package kocev.nenad.studentsapi.controllers;
 
+import kocev.nenad.studentsapi.model.DTOs.StudentDto;
 import kocev.nenad.studentsapi.model.Student;
 import kocev.nenad.studentsapi.services.StudentService;
 import org.springframework.http.HttpStatus;
@@ -40,23 +41,23 @@ public class StudentResource {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    public void addNewStudent(@RequestBody Map<String, String> payload, HttpServletResponse response) throws IOException {
+    public void addNewStudent(@RequestBody StudentDto student, HttpServletResponse response){
 
         service.addNewStudent(
-                payload.get("index"),
-                payload.get("fname"),
-                payload.get("lname"),
-                payload.get("studyProgram"));
-        response.setHeader("Location", "/students/" + payload.get("index"));
+                student.getIndex(),
+                student.getName(),
+                student.getLastName(),
+                student.getStudyProgram());
+        response.setHeader("Location", "/students/" + student.getIndex());
     }
 
     @PatchMapping
-    public void updateStudent(@RequestBody Map<String, String> payload){
+    public void updateStudent(@RequestBody StudentDto student){
         service.updateStudent(
-                payload.get("index"),
-                payload.get("fname"),
-                payload.get("lname"),
-                payload.get("studyProgram"));
+                student.getIndex(),
+                student.getName(),
+                student.getLastName(),
+                student.getStudyProgram());
     }
 
     @DeleteMapping("/delete/{index}")

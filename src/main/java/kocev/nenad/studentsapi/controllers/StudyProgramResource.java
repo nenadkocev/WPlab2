@@ -7,7 +7,6 @@ import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Map;
 
 @RestController
 @RequestMapping(path = "/study_programs", produces = MediaType.APPLICATION_JSON_VALUE)
@@ -25,8 +24,8 @@ public class StudyProgramResource {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    public void addNewStudyProgram(@RequestBody Map<String, String> payload){
-        service.addNewStudyProgram(payload.get("studyProgram"));
+    public void addNewStudyProgram(@RequestBody StudyProgram studyProgram){
+        service.addNewStudyProgram(studyProgram.getName());
     }
 
     @DeleteMapping("/delete/{id}")
