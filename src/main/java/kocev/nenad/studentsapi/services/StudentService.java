@@ -1,5 +1,6 @@
 package kocev.nenad.studentsapi.services;
 
+import kocev.nenad.studentsapi.model.DTOs.StudentDto;
 import kocev.nenad.studentsapi.model.Student;
 import kocev.nenad.studentsapi.model.exceptions.BadParametersException;
 import kocev.nenad.studentsapi.model.exceptions.StudentNotFoundException;
@@ -8,7 +9,7 @@ import java.util.List;
 
 public interface StudentService {
 
-    List<Student> getAllStudents();
+    List<StudentDto> getAllStudents();
 
     Student getStudent(String index) throws StudentNotFoundException;
 

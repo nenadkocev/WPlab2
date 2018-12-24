@@ -7,13 +7,10 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
-import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
 import java.util.List;
-import java.util.Map;
 
-
+@CrossOrigin({"*", "localhost:3000"})
 @RestController
 @RequestMapping(path = "/students", produces = MediaType.APPLICATION_JSON_VALUE)
 public class StudentResource {
@@ -25,7 +22,7 @@ public class StudentResource {
     }
 
     @GetMapping
-    public List<Student> getAllStudents(){
+    public List<StudentDto> getAllStudents(){
         return service.getAllStudents();
     }
 

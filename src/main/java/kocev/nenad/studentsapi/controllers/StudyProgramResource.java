@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin({"*", "localhost:3000"})
 @RestController
 @RequestMapping(path = "/study_programs", produces = MediaType.APPLICATION_JSON_VALUE)
 public class StudyProgramResource {

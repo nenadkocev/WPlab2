@@ -1,5 +1,6 @@
 package kocev.nenad.studentsapi.services.impl;
 
+import kocev.nenad.studentsapi.model.DTOs.StudentDto;
 import kocev.nenad.studentsapi.model.Student;
 import kocev.nenad.studentsapi.model.StudyProgram;
 import kocev.nenad.studentsapi.model.exceptions.BadParametersException;
@@ -25,8 +26,11 @@ public class StudentServiceImpl implements StudentService {
     }
 
     @Override
-    public List<Student> getAllStudents() {
-        return repository.findAll();
+    public List<StudentDto> getAllStudents() {
+        return repository.findAll()
+                .stream()
+                .map(s ->  new StudentDto(s.getIndex(), s.getFirstName(), s.getLastName(), s.getProgram().getName()))
+                .collect(Collectors.toList());
     }
 
     @Override

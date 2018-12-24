@@ -1,6 +1,7 @@
 package kocev.nenad.studentsapi.services;
 
 import kocev.nenad.studentsapi.model.StudyProgram;
+import kocev.nenad.studentsapi.model.exceptions.StudyProgramNotEmptyException;
 
 import java.util.List;
 
@@ -10,5 +11,5 @@ public interface StudyProgramService {
 
     void addNewStudyProgram(String programName);
 
-    void deleteStudyProgram(Long id);
+    void deleteStudyProgram(Long id) throws StudyProgramNotEmptyException;
 }
