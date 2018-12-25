@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ed9f390-92e9-441c-94f6-34ec7b0199af" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/model/exceptions/StudyProgramNotEmptyException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/controllers/StudentResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/controllers/StudentResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/controllers/StudyProgramResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/controllers/StudyProgramResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/services/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/services/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/services/StudyProgramService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/services/StudyProgramService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/services/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/services/impl/StudentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/services/impl/StudyProgramServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/services/impl/StudyProgramServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -31,8 +25,8 @@
       <file leaf-file-name="StudentResource.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/controllers/StudentResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+            <state relative-caret-position="1071">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,14 +34,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudyProgramResource.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StudyProgramResource.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/controllers/StudyProgramResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="609">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1086#1087#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentsApiApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/StudentsApiApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#321#322#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/services/impl/StudentServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
             </state>
           </provider>
         </entry>
@@ -56,17 +72,18 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/services/StudyProgramService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudyProgramServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StudyProgramServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/services/impl/StudyProgramServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="525">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
+                <element signature="e#1014#1015#0" expanded="true" />
                 <element signature="e#1076#1077#0" expanded="true" />
               </folding>
             </state>
@@ -76,7 +93,7 @@
       <file leaf-file-name="StudyProgramNotEmptyException.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/model/exceptions/StudyProgramNotEmptyException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="84">
               <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -476,11 +493,11 @@
         <option value="$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/model/DTOs/StudentWithoutStudyProgram.java" />
         <option value="$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/services/impl/StudentServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/services/StudentService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/controllers/StudentResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/controllers/StudyProgramResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/model/exceptions/StudyProgramNotEmptyException.java" />
         <option value="$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/services/StudyProgramService.java" />
         <option value="$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/services/impl/StudyProgramServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/controllers/StudyProgramResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/controllers/StudentResource.java" />
       </list>
     </option>
   </component>
@@ -504,7 +521,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -547,49 +564,11 @@
               <item name="studentsapi" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="students-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WPlab2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="studentsapi" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="students-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WPlab2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="studentsapi" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="students-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WPlab2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="studentsapi" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="students-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WPlab2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="studentsapi" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -683,11 +662,12 @@
       <workItem from="1545582842409" duration="9203000" />
       <workItem from="1545641844521" duration="178000" />
       <workItem from="1545642792675" duration="1600000" />
+      <workItem from="1545651168630" duration="6381000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35552000" />
+    <option name="totallyTimeSpent" value="41933000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -703,18 +683,18 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42244226" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5511551" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32838285" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5214521" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5214521" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34341908" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34871408" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Learn" order="2" />
@@ -722,10 +702,10 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.33333334" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
     </layout>
@@ -743,42 +723,46 @@
           <url>file://$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/services/impl/StudentServiceImpl.java</url>
           <line>53</line>
           <properties />
-          <option name="timeStamp" value="74" />
+          <option name="timeStamp" value="96" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/services/impl/StudentServiceImpl.java</url>
           <line>54</line>
           <properties />
-          <option name="timeStamp" value="75" />
+          <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/services/impl/StudentServiceImpl.java</url>
           <line>55</line>
           <properties />
-          <option name="timeStamp" value="76" />
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/services/impl/StudentServiceImpl.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/services/impl/StudentServiceImpl.java</url>
           <line>58</line>
           <properties />
-          <option name="timeStamp" value="78" />
+          <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/services/impl/StudentServiceImpl.java</url>
           <line>59</line>
           <properties />
-          <option name="timeStamp" value="79" />
+          <option name="timeStamp" value="101" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/services/impl/StudentServiceImpl.java</url>
-          <line>52</line>
-          <properties class="kocev.nenad.studentsapi.services.impl.StudentServiceImpl" method="updateStudent">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="77" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/controllers/StudentResource.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="107" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="83" />
+      <option name="time" value="109" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -788,6 +772,7 @@
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1032,13 +1017,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/services.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/model/StudentPostJSON.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/StudentsApiApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1096,13 +1074,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/services/impl/StudentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/services/StudentService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -1110,29 +1081,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/controllers/StudentResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/controllers/StudyProgramResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/model/exceptions/StudyProgramNotEmptyException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="84">
           <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1143,16 +1094,55 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/services/StudyProgramService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/services/impl/StudyProgramServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="525">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
+            <element signature="e#1014#1015#0" expanded="true" />
             <element signature="e#1076#1077#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/StudentsApiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#321#322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/services/impl/StudentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/controllers/StudentResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kocev/nenad/studentsapi/controllers/StudyProgramResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
           </folding>
         </state>
       </provider>

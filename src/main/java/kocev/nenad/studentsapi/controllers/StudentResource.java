@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
-@CrossOrigin({"*", "localhost:3000"})
+@CrossOrigin("*")
 @RestController
 @RequestMapping(path = "/students", produces = MediaType.APPLICATION_JSON_VALUE)
 public class StudentResource {
@@ -48,7 +48,7 @@ public class StudentResource {
         response.setHeader("Location", "/students/" + student.getIndex());
     }
 
-    @PatchMapping
+    @PostMapping("/update")
     public void updateStudent(@RequestBody StudentDto student){
         service.updateStudent(
                 student.getIndex(),
